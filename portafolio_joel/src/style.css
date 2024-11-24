@@ -1,15 +1,14 @@
 html {
     --section-background-color: linear-gradient(to bottom left,
-            rgba(17, 16, 16, 0.582),
-            rgba(12, 8, 24, 0.904));
+            rgba(0, 0, 128, 0.582), /* Azul marino semitransparente */
+            rgba(0, 128, 128, 0.904)); /* Verde azulado con poca transparencia */
 
     --image-gradient: linear-gradient(to bottom left,
-            rgba(17, 16, 16, 0.678),
-            rgba(12, 10, 22, 0.863));
+            rgba(0, 0, 128, 0.678), /* Azul marino más transparente */
+            rgba(0, 128, 128, 0.863)); /* Verde azulado menos transparente */
 
-    --imp-text-color: #c770f0;
+    --imp-text-color: #007080; /* Verde azulado */
 }
-
 .purple {
     color: var(--imp-text-color) !important;
 }
@@ -93,7 +92,7 @@ button:focus {
 
 .navbar-toggler span {
     display: block !important;
-    background-color: #be50f4 !important;
+    background-color: #007080 !important;
     height: 4px !important;
     width: 27px !important;
     margin-top: 5px !important;
@@ -156,9 +155,9 @@ button:focus {
     height: 1.4em !important;
     width: 2.5em !important;
 }
-
+/*cambio de color letras navbar*/
 .navbar-nav .nav-link {
-    color: white !important;
+    color: #add8e6 !important;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
 }
@@ -264,6 +263,9 @@ button:focus {
 
 .home-header {
     padding-top: 80px !important;
+}
+.home-section {
+    background: #fcf4e4 !important;
 }
 /*
 .home-section {
