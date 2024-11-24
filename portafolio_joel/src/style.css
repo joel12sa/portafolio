@@ -157,7 +157,7 @@ button:focus {
 }
 /*cambio de color letras navbar*/
 .navbar-nav .nav-link {
-    color: #add8e6 !important;
+    color: #556b2f!important;
     padding-right: 1rem !important;
     padding-left: 1rem !important;
 }
@@ -280,7 +280,7 @@ button:focus {
 
 .home-content {
     padding: 9rem 0 2rem !important;
-    color: whitesmoke;
+    color: #2f2f2f;
     text-align: left;
 }
 
